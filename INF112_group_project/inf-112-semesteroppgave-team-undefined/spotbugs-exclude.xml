@@ -1,0 +1,7 @@
+<FindBugsFilter>
+    <Match>
+        <!-- MVC requires sharing mutable objects between controllers and views,
+            so don't warn about that -->
+        <Bug pattern="EI_EXPOSE_REP2" />
+    </Match>
+</FindBugsFilter>
